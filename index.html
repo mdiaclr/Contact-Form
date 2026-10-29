@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <title>Welcome - Contact Form</title>
+    
+ 
+    <link rel="stylesheet" media="screen and (min-width: 1025px)" href="css/desktopview.css"/>
+    <link rel="stylesheet" media="screen and (max-width: 1024px)" href="css/tabletview.css"/>
+    <link rel="stylesheet" media="screen and (max-width: 767px)" href="css/mobileview.css"/>
+  </head>
+  <body>
+    
+   
+    <div id="header" class="row">
+      <div class="col-8">
+        <h1>WELCOME !</h1>
+      </div>
+      <div class="col-4 right-align header-nav">
+        
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="hamburger-btn">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+        
+       
+        <div class="dropdown-menu">
+          <a href="#" class="menu-item">Log In</a>
+          <a href="#" class="menu-item">Register</a>
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="main-content">
+      <div id="contact-card">
+        <h2>We'd love to hear from you!</h2>
+        
+        <form method="GET" action="#">
+          <div class="row">
+            <div class="col-6 col-mobile-6">
+              <label>First Name:</label><br>
+              <input type="text" name="fname" placeholder="Juan" class="form-input">
+            </div>
+            <div class="col-6 col-mobile-6">
+              <label>Last Name:</label><br>
+              <input type="text" name="lname" placeholder="Dela Cruz" class="form-input">
+            </div>
+          </div>
+          
+          <div class="row">
+            <div class="col-6 col-mobile-12">
+              <label>Phone Number:</label><br>
+              <input type="number" name="phone" placeholder="09123456789" class="form-input">
+            </div>
+            <div class="col-6 col-mobile-12">
+              <label>Email:</label><br>
+              <input type="email" name="email" placeholder="juandelacruz@gmail.com" class="form-input">
+            </div>
+          </div>
+          
+          <div class="row">
+            <div class="col-12">
+              <label>Type your message or feedback:</label><br>
+              <textarea id="message-input" name="message" placeholder="Hello, Team!&#10;&#10;I am writing this message to you to raise my concern..."></textarea>
+            </div>
+          </div>
+          
+          <div class="row right-align">
+            <div class="col-12">
+              <input type="submit" value="Submit" id="submit-btn">
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+
+   
+    <div id="footer" class="row">
+      <div class="col-3 footer-logo">
+        <img src="LOGO.png" alt="Company Logo" class="responsive-logo">
+      </div>
+      
+      <div class="col-3 footer-socials-group">
+        <div class="footer-block">
+          <h3>Socials</h3>
+          <p class="social-icons">
+            <a href="#"><img src="LOGOS/fb.png" alt="Facebook" class="social-img"></a>
+            <a href="#"><img src="LOGOS/x.png" alt="X" class="social-img"></a>
+            <a href="#"><img src="LOGOS/insta.png" alt="Instagram" class="social-img"></a>
+          </p>
+        </div>
+        <div class="footer-block support-block">
+          <h3>Support</h3>
+          <p>
+            <a href="#">Help Center</a><br>
+            <a href="#">FAQs</a><br>
+            <a href="#">Privacy Policy</a>
+          </p>
+        </div>
+      </div>
+
+
+      
+      <div class="col-3 footer-company-group">
+        <h3>Our Company</h3>
+        <p>
+          <a href="#">About</a><br>
+          <a href="#">Services</a><br>
+          <a href="#">Contact</a>
+        </p>
+      </div>
+      
+      <div class="col-3 footer-support-desktop">
+        <h3>Support</h3>
+        <p>
+          <a href="#">Help Center</a><br>
+          <a href="#">FAQs</a><br>
+          <a href="#">Privacy Policy</a>
+        </p>
+      </div>
+    </div>
+
+  </body>
+</html>
